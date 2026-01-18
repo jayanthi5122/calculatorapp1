@@ -54,3 +54,12 @@ def calculator():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+    
+    
+from utils import add, subtract, multiply, divide
+
+print(add(10, 5))
+print(subtract(10, 5))
+print(multiply(10, 5))
+print(divide(10, 5))
+
